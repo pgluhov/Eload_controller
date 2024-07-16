@@ -189,7 +189,7 @@ void Task1code(void* pvParameters) {  // Опрос клавиатуры
       digitalWrite(columnArray[i], activeMask[i]);
       }
      
-    vTaskDelay(15);               
+    vTaskDelay(15/portTICK_PERIOD_MS);               
    }
 }
 
@@ -344,7 +344,7 @@ void Task4code(void* pvParameters) {  // Функции энкодера
    } 
  
    enc.resetState();     
-   vTaskDelay(10);    
+   vTaskDelay(10/portTICK_PERIOD_MS);    
   }
 }
 
