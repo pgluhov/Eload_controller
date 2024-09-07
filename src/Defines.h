@@ -10,7 +10,7 @@
 #define ENABLE_DEBUG_KEYB 0  // Если 1 то отладка клавиатуры включена 
 #define ENABLE_DEBUG_UART 0  // Если 1 то отладка обмена по uart включена 
 #define ENABLE_DEBUG_ENC  0  // Если 1 то отладка энкодера в Serial 
-String REV_VERSION = "Firmware version 1.00"; 
+String REV_VERSION = "Firmware version 1.50"; 
  
 //--------номера IO-------------------
 
